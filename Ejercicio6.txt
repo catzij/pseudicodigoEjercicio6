@@ -1,0 +1,37 @@
+inicio
+	var edad[100]
+
+	var i = 0 ; i < 100 ; i ++;{
+	  mostrar "ingrese edad de persona "+(i+1);
+	  leer edad[posicion]
+	  posicion ++
+	}
+	
+	var cantidad ;
+	var suma ;
+	var promedio ;
+	var i = 0 ; i < 100 ; i ++;{
+
+	  si edad[posicion] < 25
+	    cantidad ++
+	    suma = suma + edad[posicion]
+	    	
+	}
+	promedio = suma / promedio ;
+
+	var cantidad2 ;
+	var suma2 ;
+	var promedio2 ;
+	var i = 0 ; i < 100 ; i ++;{
+
+	  si edad[posicion] > 25
+	    cantidad2 ++
+	    suma2 = suma2 + edad[posicion]
+	    	
+	}
+	promedio = suma / promedio ;
+
+	mostar "el promedio de la edad que tienen menos de 25 años es"+ promedio
+	mostar "el primedio de la edad que tienen mas de 25 años es"+promedio2
+
+fin
